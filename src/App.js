@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import AddItem from './AddItem'
 import Items from './Items'
 
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <header />
-      <Items items={items}/>
+      <Items items={items} />
       <AddItem addItemHandler={addItemHandler} />
     </div>
   )
